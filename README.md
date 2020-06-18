@@ -21,3 +21,8 @@ The default SPARQL endpoint used by YASGUI. Defaults to `http://localhost/sparql
 
 #### ENABLE_ENDPOINT_SELECTOR
 Flag to enable the SPARQL endpoint input field. Defaults to `false`. Set to `true` if you want the user to be able to enter a custom SPARQL endpoint URL. If set to `false` all SPARQL queries will be executed against the `DEFAULT_SPARQL_ENDPOINT`.
+
+#### Added support for content negotiation 
+
+See default.conf for proxying  landvoc sparql endpoint
+
